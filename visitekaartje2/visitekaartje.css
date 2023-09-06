@@ -1,0 +1,84 @@
+.Naam {
+  border: solid;
+  border-color: rgb(111, 218, 170);
+
+  width: 15em;
+  height: 3em;
+ 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-left: 3em;
+  
+ 
+  font-family: arial;
+  font-weight: bold;
+
+  font-size: 30px;
+  background-color: rgb(110, 206, 144);
+  box-shadow: 1px 1px 5px 5px rgb(97, 95, 95);
+  text-shadow: 3px 3px 6px rgb(194, 3, 194);
+}
+
+.artiekel {
+  border: solid;
+  height: 58em;
+  width: 40em;
+  display: flex;
+  justify-content: center;
+  margin: 5em;
+  display: block;
+  border: none;
+  box-shadow: 1px 1px 5px 5px rgb(97, 95, 95);
+  background: linear-gradient(0deg, rgb(8, 116, 67) 40%, #ffffff 100%);
+}
+
+.fotobibek {
+  height: 12em;
+  width: auto;
+  border-radius: 5em;
+  display: flex;
+  justify-content: center;
+  margin-left: 10em;
+}
+
+.head3 {
+  padding: 2em;
+  width: 10em;
+
+  margin-top: 3em;
+  margin-left: 5em;
+
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
+
+.head4 {
+  border: solid;
+
+  width: 10em;
+  padding: 3em;
+
+  display: flex;
+  justify-content: center;
+  border: solid;
+
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 20em;
+}
+
+.head5 {
+  border: solid;
+
+  display: flex;
+  border: solid;
+  padding: 3em;
+  padding-left: 7em;
+  width: 10em;
+
+  margin-left: 5em;
+}
