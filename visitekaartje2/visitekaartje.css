@@ -1,9 +1,22 @@
+
+
+
+
 .body {
+
+/* achtergrond in body met een gif */
+
   background-image: url(https://gifdb.com/images/high/moving-million-stars-7hoghfwikbqh3c3s.gif);
   scroll-behavior: smooth;
 }
 
+
+/* de design van mijn naam boven in.*/
+
 .Naam {
+
+
+
   border: solid;
   border-color: rgb(32, 40, 112);
 
@@ -25,6 +38,9 @@
   border-radius: 1em;
 }
 
+
+/* hier heb ik artiekel geselecteerd met class. In het artiekel komt alles te staan. ook heb ik het een shadow gegeven en paar dingen gecentered.*/
+
 .artiekel {
   border: solid;
 
@@ -39,6 +55,9 @@
   box-shadow: 1px 1px 5px 5px rgb(78, 135, 195);
   background: linear-gradient(0deg, rgb(66, 161, 198) 70%, #0f1637 100%);
 }
+
+/* hier staat img, met foto van mij. Ik heb het een flow gegeven om het meer te laten opvallen. Als je erover hovert wordt de img groter in de glow ook. Ook heb ik het weer gecenterd.    */
+
 
 .fotobibek {
   box-shadow: 0 0 35px 15px #d5eada;
@@ -59,11 +78,19 @@
   margin-left: 9em;
 }
 
+/*  hier staat de hover om de foto groter te maken en te lagen glowen */
+
+
+
 .fotobibek:hover {
   width: 9em;
   height: 13em;
   box-shadow: 0 0 70px 30px #d5eada;
 }
+
+
+
+/*  in head1 staat belangrijke informatie over mij, ik heb de color ook white gemaakt zodat de tekst meer opvalt, en alles staat gecenterd */
 
 .head1 {
   border: solid;
@@ -87,6 +114,8 @@
   text-align: center;
 }
 
+
+/* hier staat wat minder belangrijk informatie, het staat ook helemaal onder in mijn kaart, met wat donkerdere kleuren zodat je dat als laatst ziet..*/
 .head2 {
   border: solid;
 
@@ -109,6 +138,8 @@
   font-family: open sans-serif;
 }
 
+/* hier staat wat minder belangrijk informatie, het staat ook helemaal onder in mijn kaart, met wat donkerdere kleuren zodat je dat als laatst ziet..*/
+
 .head3 {
   border: solid;
 
@@ -128,6 +159,11 @@
 
   background-color: rgb(118, 189, 243);
 }
+
+
+
+/*  hieronder heb ik alle tekst gewijzigd/gedisgned om het wat mooier te maken  */ 
+
 
 .h1tekst {
   margin-top: 10em;
@@ -157,6 +193,12 @@
   font-family: open sans-serif;
   width: 12em;
 }
+
+
+/* hier heb ik de animatie die je bij mijn naam boven in ziet gemaakt. 
+Eigenlijk heb ik het meer gedaan om te oefenen, maar het helpt wel om mensen als eerst mijn naam te laten zien want het valt lekker op.
+    */
+
 
 .Bibek {
   animation: pulse 2s infinite;
